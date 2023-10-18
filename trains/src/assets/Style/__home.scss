@@ -1,0 +1,43 @@
+.home {
+    h1 {
+        padding-bottom: 44px;
+        color: #12486B;
+    }
+
+    .relsType {
+        display: none;
+    }
+}
+
+@media(min-width:768px) {
+    .home {
+        .select {
+            display: none;
+        }
+
+        .relsType {
+            display: block;
+
+            ul {
+                display: flex;
+                list-style: none;
+
+                li {
+                    margin: 0 32px 26px 0;
+
+                    .btn {
+                        background-color: transparent;
+                        color: #ced2d9;
+                        border: none;
+                        line-height: 4.8rem;
+                        letter-spacing: -.02em;
+                        text-transform: uppercase;
+                        color: #ced2d9;
+                        font-weight: 700;
+                        font-size: 29px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,214 @@
+{
+  "relsTypes": [
+    {
+      "name": "Abşeron",
+      "id": 1
+    },
+    {
+      "name": "Beynəlxalq",
+      "id": 2
+    },
+    {
+      "name": "Ölkədaxili",
+      "id": 3
+    }
+  ],
+  "trajectoryOnAbsheron": [
+    {
+      "name": "Baki-Pirsagi-Sumqayit",
+      "id": 1
+    },
+    {
+      "name": "Baki-Xirdalan-Sumqayit",
+      "id": 2
+    }
+  ],
+  "outputsInWeek": [
+    {
+      "time": "08:00",
+      "from": "Baki",
+      "trainNum": "№ 6601",
+      "trajectoryId": 1,
+      "id": 1,
+      "workDay": true
+    },
+    {
+      "time": "09:00",
+      "from": "Baki",
+      "trainNum": "№ 6602",
+      "trajectoryId": 1,
+      "id": 2,
+      "workDay": true
+    },
+    {
+      "time": "10:00",
+      "from": "Baki",
+      "trainNum": "№ 6603",
+      "trajectoryId": 1,
+      "id": 3,
+      "workDay": true
+    },
+    {
+      "time": "11:00",
+      "from": "Baki",
+      "trainNum": "№ 6604",
+      "trajectoryId": 1,
+      "id": 4,
+      "workDay": true
+    },
+    {
+      "time": "08:30",
+      "from": "Baki",
+      "trainNum": "№ 6605",
+      "trajectoryId": 2,
+      "id": 5,
+      "workDay": true
+    },
+    {
+      "time": "09:30",
+      "from": "Baki",
+      "trainNum": "№ 6606",
+      "trajectoryId": 2,
+      "id": 6,
+      "workDay": true
+    },
+    {
+      "time": "10:30",
+      "from": "Baki",
+      "trainNum": "№ 6607",
+      "trajectoryId": 2,
+      "id": 7,
+      "workDay": true
+    },
+    {
+      "time": "11:30",
+      "from": "Baki",
+      "trainNum": "№ 6608",
+      "trajectoryId": 2,
+      "id": 8,
+      "workDay": true
+    }
+  ],
+  "outputsInWeekend": [
+    {
+      "time": "10:00",
+      "from": "Baki",
+      "trainNum": "№ 7785",
+      "trajectoryId": 1,
+      "id": 1,
+      "workDay": false
+    },
+    {
+      "time": "15:00",
+      "from": "Baki",
+      "trainNum": "№ 5441",
+      "trajectoryId": 1,
+      "id": 2,
+      "workDay": false
+    },
+    {
+      "time": "19:00",
+      "from": "Baki",
+      "trainNum": "№ 5400",
+      "trajectoryId": 1,
+      "id": 3,
+      "workDay": false
+    },
+    {
+      "time": "22:00",
+      "from": "Baki",
+      "trainNum": "№ 1252",
+      "trajectoryId": 1,
+      "id": 4,
+      "workDay": false
+    },
+    {
+      "time": "10:30",
+      "from": "Baki",
+      "trainNum": "№ 4547",
+      "trajectoryId": 2,
+      "id": 5,
+      "workDay": false
+    },
+    {
+      "time": "11:30",
+      "from": "Baki",
+      "trainNum": "№ 7785",
+      "trajectoryId": 2,
+      "id": 6,
+      "workDay": false
+    },
+    {
+      "time": "12:30",
+      "from": "Baki",
+      "trainNum": "№ 4548",
+      "trajectoryId": 2,
+      "id": 7,
+      "workDay": false
+    }
+  ],
+  "stationsOnBPS": [
+    {
+      "name": "Bakı",
+      "id": 1
+    },
+    {
+      "name": "Keşlə",
+      "id": 2
+    },
+    {
+      "name": "Koroğlu",
+      "id": 3
+    },
+    {
+      "name": "Bakıxanov",
+      "id": 4
+    },
+    {
+      "name": "Sabunçu",
+      "id": 5
+    },
+    {
+      "name": "Zabrat 1",
+      "id": 6
+    },
+    {
+      "name": "Zabrat 2",
+      "id": 7
+    },
+    {
+      "name": "Məmmədli",
+      "id": 8
+    },
+    {
+      "name": "Pirşağı",
+      "id": 9
+    },
+    {
+      "name": "Görədil",
+      "id": 10
+    },
+    {
+      "name": "Novxanı",
+      "id": 11
+    },
+    {
+      "name": "Sumqayıt",
+      "id": 12
+    }
+  ],
+  "stationsOnBXS": [  
+    {
+      "name" : "Baki",
+      "id" : 1
+    },
+    {
+      "name" : "Xirdalan",
+      "id" : 2
+    },
+    {
+      "name" : "Sumqayit",
+      "id" : 3
+    }
+  ]
+}
