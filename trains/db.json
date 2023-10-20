@@ -89,7 +89,7 @@
       "workDay": true
     }
   ],
-  "outputsInWeekend": [
+  "outputsInWeekend": [ 
     {
       "time": "10:00",
       "from": "Baki",
@@ -197,18 +197,112 @@
       "id": 12
     }
   ],
-  "stationsOnBXS": [  
+  "stationsOnBXS": [
     {
-      "name" : "Baki",
-      "id" : 1
+      "name": "Baki",
+      "id": 1
     },
     {
-      "name" : "Xirdalan",
-      "id" : 2
+      "name": "Xirdalan",
+      "id": 2
     },
     {
-      "name" : "Sumqayit",
-      "id" : 3
+      "name": "Sumqayit",
+      "id": 3
+    }
+  ],
+  "outputsInWeekFromSumgait": [
+    {
+      "time": "17:00",
+      "from": "Sumgait",
+      "trainNum": "№ 7485",
+      "trajectoryId": 1,
+      "id": 1,
+      "workDay": true
+    },
+    {
+      "time": "18:00",
+      "from": "Sumgait",
+      "trainNum": "№ 2541",
+      "trajectoryId": 1,
+      "id": 2,
+      "workDay": true
+    },
+    {
+      "time": "19:00",
+      "from": "Sumgait",
+      "trainNum": "№ 2654",
+      "trajectoryId": 1,
+      "id": 3,
+      "workDay": true
+    },
+    {
+      "time": "19:30",
+      "from": "Sumgait",
+      "trainNum": "№ 5252",
+      "trajectoryId": 2,
+      "id": 4,
+      "workDay": true
+    },
+    {
+      "time": "20:30",
+      "from": "Sumgait",
+      "trainNum": "№ 4785",
+      "trajectoryId": 2,
+      "id": 5,
+      "workDay": true
+    },
+    {
+      "time": "21:30",
+      "from": "Sumgait",
+      "trainNum": "№ 4585",
+      "trajectoryId": 2,
+      "id": 6,
+      "workDay": true
+    }
+  ],
+  "outputsInWeekendFromSumgait": [
+    {
+      "time": "12:20",
+      "from": "Sumgait",
+      "trainNum": "№ 9654",
+      "trajectoryId": 1,
+      "id": 1,
+      "workDay": false
+    },
+    {
+      "time": "14:40",
+      "from": "Sumgait",
+      "trainNum": "№ 1252",
+      "trajectoryId": 1,
+      "id": 2,
+      "workDay": false
+    },
+    {
+      "time": "15:25",
+      "from": "Sumgait",
+      "trainNum": "№ 5225",
+      "trajectoryId": 2,
+      "id": 3,
+      "workDay": false
+    },
+    {
+      "time": "16:45",
+      "from": "Sumgait",
+      "trainNum": "№ 7458",
+      "trajectoryId": 2,
+      "id": 4,
+      "workDay": false
+    }
+  ],
+  "outputsFrom": [
+    {
+      "name": "Bakidan",
+      "id": 1
+    },
+    {
+      "name": "Sumqayitdan",
+      "id": 2
     }
   ]
 }

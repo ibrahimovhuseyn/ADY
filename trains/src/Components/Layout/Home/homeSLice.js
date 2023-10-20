@@ -4,7 +4,7 @@ const initialState = {
     selectedRelsType: "",
     trajectoryOnAbsheron: [],
     selectedDirection: "",
-    from: [{ name: "BAKIDAN", id: 1 }, { name: "SUMQAYITDAN", id: 2 }],
+    from: [],
     selectedFrom: "",
 }
 export const homeSlice = createSlice({
@@ -25,6 +25,9 @@ export const homeSlice = createSlice({
         },
         setSelectedFrom: (state, action) => {
             state.selectedFrom = action.payload
+        },
+        setFrom: (state, action) => {
+            state.from = action.payload
         }
     }
 })
@@ -32,6 +35,7 @@ export const { getRelsType,
     getTrajectoryOnAbsheron,
     setSelectedRelsType,
     setSelectedFrom,
-    setSelectedDirection
+    setSelectedDirection,
+    setFrom
 } = homeSlice.actions
 export default homeSlice.reducer

@@ -2,7 +2,7 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { apiUrl } from '../../../Config'
 import { useDispatch, useSelector } from 'react-redux'
-import { getTrajectoryOnAbsheron, setSelectedDirection, setSelectedFrom } from './homeSLice'
+import { getTrajectoryOnAbsheron, setFrom, setSelectedDirection, setSelectedFrom } from './homeSLice'
 import { Button, Label } from 'reactstrap'
 import BPS from './BPS'
 import BXS from './BXS'
@@ -16,6 +16,7 @@ function Absheron() {
 
     useEffect(() => {
         axios.get(`${apiUrl}/trajectoryOnAbsheron`).then(res => dispatch(getTrajectoryOnAbsheron(res.data)))
+        axios.get(`${apiUrl}/outputsFrom`).then(res => dispatch(setFrom(res.data)))
     }, [])
 
 
